@@ -6,11 +6,11 @@ Example resource management
 
 
 - `/api/`
-  - The schema for bogus objects managed by 
-  - Supports: `POST` (new), `GET` (get all bogus)
+  - The schema for asset objects
+  - Supports: `POST` (new), `GET` (get all asset)
 
-- `/api/bogus/<id>`
-  - Edit a bogus in details
+- `/api/asset/<id>`
+  - Edit a asset in details
   - Supports: `PUT` (update), `DELETE` (delete the object with id)
 
 
